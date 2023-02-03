@@ -11,7 +11,7 @@ export function Header() {
 
       <div className="flex flex-wrap items-center justify-center gap-6 py-2 px-6 rounded-xl bg-lac-blue-dark">
         <Link
-          to={"/calculadora-medica/"}
+          to={"/calculadora-medica-v2/"}
           className="text-lg font-semibold text-white hover:text-sky-400"
         >
           Colesterol LDL/VLDL
