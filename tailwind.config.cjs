@@ -7,6 +7,7 @@ module.exports = {
         lac: {
           blue: {
             light: "#DDF0F1",
+            medium: "#23B5BD",
             dark: "#002447",
           },
           gray: "#9597AC",
