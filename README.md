@@ -1,1 +1,0 @@
-# calculadora-medica-v2
