@@ -1,14 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-import CholesterolIndex from "../pages/CholesterolIndex"
-import HomaIndex from "../pages/HomaIndex"
+import { Cholesterol } from "../pages/Cholesterol"
 
-export default function Rotas() {
+export function Rotas() {
   return (
     <Router>
       <Routes>
-        <Route path="/calculadora-medica/" element={<CholesterolIndex />} />
-        <Route path="/calculadora-medica/homa" element={<HomaIndex />} />
+        <Route path="/calculadora-medica/" element={<Cholesterol />} />
       </Routes>
     </Router>
   )
