@@ -6,7 +6,7 @@ export function Rotas() {
   return (
     <Router>
       <Routes>
-        <Route path="/calculadora-medica/" element={<Cholesterol />} />
+        <Route path="/calculadora-medica-v2/" element={<Cholesterol />} />
       </Routes>
     </Router>
   )

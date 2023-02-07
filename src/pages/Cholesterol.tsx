@@ -2,7 +2,7 @@ import { Card } from "../components/Card"
 
 export function Cholesterol() {
   return (
-    <div className="h-screen w-screen m-auto bg-lac-blue-light">
+    <div className="w-full h-full m-auto">
       <Card />
     </div>
   )
